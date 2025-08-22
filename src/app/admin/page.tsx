@@ -30,6 +30,7 @@ interface PendingUser {
   skills: string[] | null
   bio: string | null
   created_at: string
+  approval_status: string;
 }
 
 export default function AdminDashboard() {
